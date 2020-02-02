@@ -46,12 +46,35 @@ body{
   margin-top: 5%;
   line-height: 1%;
 }
-.bannerColumn .fas.fa-plus-circle{
-  position: absolute;
-  margin-top: -18%;
-  margin-left: 1.8%;
+
+.bannerColumn{
+    
+  height: 100%;
+  float: left;
+  text-align: left;
+}
+
+.bannerColumn.c1{
+  width: 55%;
+  float: left;
+  margin: 20px 20px 20px 20px;
+  }
+
+.bannerColumn.c2{
+  float: right;
+  width: 39%;
+}
+.fas.fa-plus-circle{
+  position: relative;
   font-size:250%;
 }
+
+.iconPlus{
+  width: 10%;
+  margin-top: -63%;
+  margin-left: 6%;
+}
+
 
 .presentation{
   height: 12em;
@@ -159,8 +182,8 @@ img {
   #conference-timeline .conference-center-line {
     position: absolute;
     width: 3px;
-    height: 69%;
-    top: 7%;
+    height: 64%;
+    top: 10%;
     left: 50%;
     margin-left: -2px;
     background: mediumseagreen;
@@ -281,23 +304,6 @@ img {
   }
 
 
-  .bannerColumn{
-    
-    height: 100%;
-    float: left;
-    text-align: left;
-  }
-
-  .bannerColumn.c1{
-    width: 55%;
-    float: left;
-    margin: 20px 20px 20px 20px;
-    }
-
-  .c2{
-    float: right;
-    width: 39%;
-  }
   .column{
     width: 33.3%;
     height: 100%;
@@ -323,6 +329,7 @@ img {
  
   .skillName{
     float: left;
+    cursor: pointer;
   }
 
   .skillPercentage{
