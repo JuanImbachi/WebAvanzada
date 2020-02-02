@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family:'Roboto', sans-serif;     
+}
+
+.background{
+    background-image: url("images/banner.jpg");
+    height: 18em;
+    background-attachment: fixed;
+    background-size: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+.fas.fa-bars{
+  margin: 0.8%;
+  font-size: 150%;
+}
+
+.personalInfo {
+  background-color:mediumseagreen;
+  height: 22em;
+  margin: 12.5em;
+  margin-top: -12em;
+  padding: 0;
+  color: white;
+  margin-bottom: -10em;
+  box-shadow: 6px 6px 10px 0 darkgray;
+
+}
+
+.picture{
+   width:auto;
+  height:100%;
+  background:url("https://images.unsplash.com/photo-1446968947689-1929d80e2348?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80");
+  background-repeat: inherit;
+  background-size: 100% 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 38% 100%);
+}
+
+.contact{
+  margin-top: 5%;
+  line-height: 1%;
+}
+.bannerColumn .fas.fa-plus-circle{
+  position: absolute;
+  margin-top: -18%;
+  margin-left: 1.8%;
+  font-size:250%;
+}
+
+.presentation{
+  height: 12em;
+  margin: 13%;
+  margin-bottom: 3%;
+  text-align: center;
+  box-shadow: 6px 6px 10px 0 darkgray;
+
+}
+
+.descText{
+
+  padding: 3% 5% 3% 5%;
+}
+
+
+img {
+  width: 400px;
+  height: 350px;
+  -webkit-clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0);
+  clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0);
+  margin-top: 10px;
+}
+
+
+.bannerTitle{
+    font-family: 'Oswald', sans-serif;
+    padding:0;
+    margin: 0;
+    line-height: 10px;
+    color: white;
+}
+
+.contact h4{
+    margin:7px;
+}
+
+
+.links i{
+    margin-top: 30px;
+    font-size: 30px;
+    padding-right: 3%;
+}
+
+
+
+.btnPst{
+    background-color: mediumseagreen;
+    height: 30px;
+    color: white;
+    font-family:'Roboto', sans-serif;     
+
+}
+
+.sectionTitle{
+  color: grey;
+  text-align: center;
+  font-size: 300%;
+}
+
+.skills{
+  background-color:mediumseagreen;
+  height: 450px;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 0px;
+  color: white;
+  box-shadow: 6px 6px 10px 0 darkgray;
+
+}
+
+
+.timeline-article .content-left h2,
+.timeline-article .content-right h2
+{
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.timeline-article .content-left h3,
+.timeline-article .content-right h3
+{
+    color:grey;
+
+    margin-top: 0px;
+    margin-bottom: 5%;
+    line-height: 15px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+  
+  #conference-timeline {
+    position: relative;
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+  }
+ 
+  #conference-timeline .conference-center-line {
+    position: absolute;
+    width: 3px;
+    height: 69%;
+    top: 7%;
+    left: 50%;
+    margin-left: -2px;
+    background: mediumseagreen;
+    z-index: -1;
+  }
+
+  #conference-timeline .conference-center-line.l2 {
+    position: absolute;
+    width: 3px;
+    height: 58%;
+    top: 10%;
+    left: 50%;
+    margin-left: -2px;
+    background: mediumseagreen;
+    z-index: -1;
+  }
+  #conference-timeline .conference-timeline-content {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .timeline-article {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  .timeline-article .content-left-container,
+  .timeline-article .content-right-container {
+    max-width: 44%;
+    width: 100%;
+  }
+
+  
+  .timeline-article .timeline-author {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: fas242424;
+    text-align: right;
+  }
+  .timeline-article .content-left,
+  .timeline-article .content-right {
+    position: relative;
+    width: auto;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.03);
+    padding: 27px 25px;
+    border-left: royalblue 5px solid;
+    
+  }
+  .timeline-article p {
+    padding: 0;
+    font-weight: 400;
+    color: #242424;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
+
+  .timeline-article .content-left-container {
+    float: left;
+  }
+  .timeline-article .content-right-container {
+    float: right;
+  }
+  .timeline-article .content-left:before,
+  .timeline-article .content-right:before{
+    position: absolute;
+    top: 20px;
+    font-size: 23px;
+    font-family: "FontAwesome";
+    color: #fff;
+  }
+  .timeline-article .content-left:before {
+    content: "\f068";
+    right: -5.7%;
+    
+    color: mediumseagreen ;
+  }
+  .timeline-article .content-right:before {
+    content: "\f068";
+    left: -6.9%;
+    
+    color: mediumseagreen ;
+
+  }
+  .timeline-article .meta-date {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 62px;
+    height: 62px;
+    margin-left: -31px;
+    color: #fff;
+    border-radius: 100%;
+    background: mediumseagreen;
+  }
+  .timeline-article .meta-date .date,
+  .timeline-article .meta-date .month {
+    display: block;
+    text-align: center;
+    font-weight: 900;
+  }
+  .timeline-article .meta-date .date {
+    font-size: 30px;
+    line-height: 60px;
+  }
+  .timeline-article .meta-date .month {
+    font-size: 18px;
+    line-height: 10px;
+  }
+
+
+  .bannerColumn{
+    
+    height: 100%;
+    float: left;
+    text-align: left;
+  }
+
+  .bannerColumn.c1{
+    width: 55%;
+    float: left;
+    margin: 20px 20px 20px 20px;
+    }
+
+  .c2{
+    float: right;
+    width: 39%;
+  }
+  .column{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    padding: 0 auto;
+    text-align: center;
+  }
+
+  .skillTitle{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+
+  }
+
+  .skill {
+    margin: 0 auto 0 5%;
+    padding: 20px;
+    line-height: 10px;
+    text-align: left;
+    font-size: 20px;
+  }
+
+ 
+  .skillName{
+    float: left;
+  }
+
+  .skillPercentage{
+    float: right;
+  }
+
+  
+  .progressBar {
+    background: rgb(104, 104, 104);
+    border-radius: 5px;
+    height: 3px;
+    width: 100%;
+    padding: 3px;
+    margin-top: 7%;
+}
+
+.progressBar span {
+  content: '';
+  display: block;
+  background: white;
+  height: 100%;
+  border-radius: 9px;
+}
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  color: black;
+  /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button */
+
+#close {
+  color: #aaa;
+  float: right;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
