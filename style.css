@@ -407,4 +407,7 @@ img {
   cursor: pointer;
 }
 
+.modal-content{
+  line-height: 100%;
+}
 
